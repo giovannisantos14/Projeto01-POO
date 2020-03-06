@@ -18,16 +18,9 @@
         
         <h2>Tabela Price</h2>
         
-        <%if (request.getParameter("enviar") == null){  %>
+        <%@include file="WEB-INF/jspf/form.jspf" %>
         
-            <form>
-                Digite o valor do saldo: <input type="number" step="any" name="x" /><br/>
-                Digite a quantidade de parcelas: <input type="number" name="y" /><br/>
-                Digite a taxa de juros: <input type="number" name="z" /><br/>
-                <input type="submit" name="enviar" value="Enviar"/>
-            </form>
-         
-        <%}else{
+        <%if (request.getParameter("enviar") != null){
 
             double saldoDevedor = Double.parseDouble(request.getParameter("x")); //colocar valor saldo "x"
             int qtdParcelas = Integer.parseInt(request.getParameter("y")); //colocar qtd parcelas "y"
@@ -86,11 +79,13 @@
                     
                 </tr>
             
-            <%}while(saldoDevedor >= 0 && mes <= qtdParcelas);}%>
+            <%}while(saldoDevedor >= 0 && mes <= qtdParcelas);%>
             
         </table>
+    
+    <%}%>
             
-        <%@include file="WEB-INF/jspf/rodape.jspf" %>
+    <%@include file="WEB-INF/jspf/rodape.jspf" %>
         
     </body>
 </html>
