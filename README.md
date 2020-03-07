@@ -1,4 +1,4 @@
-# Projeto01-POO
+# Projeto01-POO - Amortização
 
 Membros do grupo:
 
