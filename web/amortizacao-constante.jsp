@@ -11,6 +11,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Amortização Constante</title>
+        <link href="css/cssAmortizacao.css" rel="stylesheet">
     </head>
     <body>
         
@@ -40,7 +41,7 @@
             <h2>Resultado:</h2>
             <hr/>
 
-            <table border="1">
+            <table cellspacing="">
 
                 <tr>
 
