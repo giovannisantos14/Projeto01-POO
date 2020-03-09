@@ -2,8 +2,8 @@
 <%@ page pageEncoding="UTF-8" %>
 
 <form>
-    Digite o valor do saldo: <input type="number" step="any" name="x" /><br/>
-    Digite a quantidade de parcelas: <input type="number" name="y" /><br/>
-    Digite a taxa de juros: <input type="number" name="z" /><br/>
+    <label for="x">Digite o valor do saldo: </label>  <input type="number" step="any" name="x" /><br/>
+    <label for="y">Digite a quantidade de parcelas:</label>  <input type="number" name="y" /><br/>
+    <label for="z">Digite a taxa de juros:</label>  <input type="number" name="z" /><br/>
     <input type="submit" name="enviar" value="Enviar"/>
 </form>
