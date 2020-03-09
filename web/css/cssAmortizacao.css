@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08/03/2020, 18:10:10
+    Author     : NOEMI
+*/
+a
+{
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+a:link{
+    color: darkcyan;
+}
+a:visited{
+    color: cadetblue;
+}
+a:hover{
+    color: powderblue;
+}
+a:active{
+    color: white;
+}
+body 
+{
+    font-family: arial;
+    font-size: 12px;
+    color: white;
+    background-color: #111111;
+    line-height: 18px;
+}
+table
+{
+    border: 3px;
+    border-color: cadetblue;
+    border-style: solid;
+    
+}
+th 
+{
+    font-size: 16px;
+    color: white;
+}
+hr
+{
+    border-color: cadetblue;
+    border: 2px solid;
+}
+#div1{
+    text-align:center;
+}
+h1
+{
+    color: royalblue;    
+}
+h2
+{
+    color: cornflowerblue;
+    
+}
+input[type=number]
+{
+    color: white;
+    width: 50px;
+    margin: 6px 0;
+    padding: 3px;
+    background-color: #111111;
+    border-color: powderblue;
+    border-style: solid;
+    border-width: 1px;
+}
+input[type=submit]
+{
+    color: #111111;
+    width: 50px;
+    margin: 6px 0;
+    padding: 3px;
+    background-color: powderblue;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+label
+{
+    color: cadetblue;
+    font-weight: bold;
+}
